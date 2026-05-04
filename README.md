@@ -21,15 +21,24 @@ Q & A
 -Explain in a few sentences what the 3 tier architecture is and how it relates to what you are learning.
 
 
+
 Runbook
-In the first few sentences (3 max) explain the end goal. 
-Add a section on prerequisites (what do I, as an engineer, need to have ready to make this happen?)
-Goal: a fully configured managed instance group
-Explain how to enable autoscaling and autohealing
-Explain how to verify that the instance group will manage instances across multiple zones
-Explain any other critical config explicitly 
-Remember this is for other engineers so no need to try to explain everything like I am a nontechnical person. Also keep in mind runbooks are not for learning but for executing something properly.  Keep it pretty high level. Use whatever amount of detail you feel is correct. 
-Test it by having a group mate use this runbook to accomplish the goal. They should be able to rely on it only to spin up a properly configured instance group. 
+-In the first few sentences (3 max) explain the end goal. 
+
+-Add a section on prerequisites (what do I, as an engineer, need to have ready to make this happen?)
+
+-Goal: a fully configured managed instance group
+
+-Explain how to enable autoscaling and autohealing
+
+-Explain how to verify that the instance group will manage instances across multiple zones
+
+-Explain any other critical config explicitly 
+
+-Remember this is for other engineers so no need to try to explain everything like I am a nontechnical person. Also keep in mind runbooks are not for learning but for executing something properly.  Keep it pretty high level. Use whatever amount of detail you feel is correct. 
+
+-Test it by having a group mate use this runbook to accomplish the goal. They should be able to rely on it only to spin up a properly configured instance group. 
+
 
 Terraform
 Explain the mandatory (required) arguments for a VM in terraform 
@@ -37,6 +46,7 @@ Explain how to output the internal and external IP addresses of the provisioned 
 Choose 2 non-required arguments and give an explanation for both (do not copy and paste the reference material) 
 Explain how you would figure out the correct format for creating a VM with the “centOS stream 10” image (the specific image is up to you). 
 Explain the difference between the “name” argument and the computed “id” and “self_link” attributes 
+
 
 
   Terraform (subdirectory)
