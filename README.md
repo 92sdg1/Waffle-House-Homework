@@ -7,12 +7,12 @@ The purpose of this repository is for organizing and submitting homework assignm
 Test for Week 8
 
 Q & A
-Each bullet point can be between 1-5 sentences. You choose the amount of detail as long as I see that you understand it. 
-What is the difference between high availability and fault tolerance? Which is best to strive for? 
-Explain the difference between autoscaling and elasticity. What is vertical and horizontal autoscaling? Is one better? Are they feasible on prem? 
-Explain what the difference between managed and unmanaged instance groups is.
-Explain the different use cases for health checks used by applications (in instance groups) and health checks used by load balancers. Can they be the same? Are they different API calls? Should they be the same? 
-Explain in a few sentences what the 3 tier architecture is and how it relates to what you are learning.
+-Each bullet point can be between 1-5 sentences. You choose the amount of detail as long as I see that you understand it. 
+-What is the difference between high availability and fault tolerance? Which is best to strive for? 
+-Explain the difference between autoscaling and elasticity. What is vertical and horizontal autoscaling? Is one better? Are they feasible on prem? 
+-Explain what the difference between managed and unmanaged instance groups is.
+-Explain the different use cases for health checks used by applications (in instance groups) and health checks used by load balancers. Can they be the same? Are they different API calls? Should they be the same? 
+-Explain in a few sentences what the 3 tier architecture is and how it relates to what you are learning.
 
 
 Runbook
