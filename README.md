@@ -25,7 +25,7 @@ Q & A
 
 
 
-Runbook
+# Runbook
 -In the first few sentences (3 max) explain the end goal. 
 
 -Add a section on prerequisites (what do I, as an engineer, need to have ready to make this happen?)
@@ -43,39 +43,67 @@ Runbook
 -Test it by having a group mate use this runbook to accomplish the goal. They should be able to rely on it only to spin up a properly configured instance group. 
 
 
-Terraform
-Explain the mandatory (required) arguments for a VM in terraform 
-Explain how to output the internal and external IP addresses of the provisioned VM and how you figured this out 
-Choose 2 non-required arguments and give an explanation for both (do not copy and paste the reference material) 
-Explain how you would figure out the correct format for creating a VM with the “centOS stream 10” image (the specific image is up to you). 
-Explain the difference between the “name” argument and the computed “id” and “self_link” attributes 
+# Terraform
+
+-Explain the mandatory (required) arguments for a VM in terraform 
+
+-Explain how to output the internal and external IP addresses of the provisioned VM and how you figured this out 
+
+-Choose 2 non-required arguments and give an explanation for both (do not copy and paste the reference material) 
+
+-Explain how you would figure out the correct format for creating a VM with the “centOS stream 10” image (the specific image is up to you). 
+
+-Explain the difference between the “name” argument and the computed “id” and “self_link” attributes 
 
 
 
-  Terraform (subdirectory)
-  This includes:
-Terraform {} code block
-Ideally this has versioning requirements for the terraform binary of at least 1.10 
-Provider {} code block
-Latest provider version 
-Comments where needed to make config self-documenting 
-Follow style guide for naming conventions 
-Idiomatic formatting (hint: there is a command for this) 
-Files separated in a logical manner and numbered
-Resources must logically build on each other
-No unneeded explicit dependencies 
-The Terraform config must provision a VM
-Must have an external IP
-Must use the “centOS stream 10” OS image 
-The root persistent disk must be 100 GB 
-Must be a machine type in the N series (you choose!)
-For the startup script use the following script
-Put the script in the startup script argument however you like 
-Startup scripts Theo has provided will not work because CentOS is a flavor of RHEL so some commands are slightly different 
-Feel free to look at the script, I added some simple comments to understand it
-Command to get script: curl -o startup.sh https://raw.githubusercontent.com/aaron-dm-mcdonald/class7.5-notes/refs/heads/main/week-8/hw/startup-for-rhel.sh
-Put it in the default vpc (or do the BAM, see below)) and use this argument too: “tags = [“http-server”] or port 80 will not open or you make a separate firewall rule (either is fine). The former option is easiest. 
-Do not include unneeded arguments 
-The terraform config must include output 
+ #  Terraform (subdirectory)
+  
+  -This includes:
+-Terraform {} code block
+
+-Ideally this has versioning requirements for the terraform binary of at least 1.10 
+
+-Provider {} code block
+
+-Latest provider version 
+
+-Comments where needed to make config self-documenting 
+
+-Follow style guide for naming conventions 
+
+-Idiomatic formatting (hint: there is a command for this) 
+
+-Files separated in a logical manner and numbered
+
+-Resources must logically build on each other
+
+-No unneeded explicit dependencies 
+
+-The Terraform config must provision a VM
+
+-Must have an external IP
+
+-Must use the “centOS stream 10” OS image 
+
+-The root persistent disk must be 100 GB 
+
+-Must be a machine type in the N series (you choose!)
+
+-For the startup script use the following script
+
+-Put the script in the startup script argument however you like 
+
+-Startup scripts Theo has provided will not work because CentOS is a flavor of RHEL so some commands are slightly different 
+
+-Feel free to look at the script, I added some simple comments to understand it
+
+-Command to get script: curl -o startup.sh https://raw.githubusercontent.com/aaron-dm-mcdonald/class7.5-notes/refs/heads/main/week-8/hw/startup-for-rhel.sh
+
+-Put it in the default vpc (or do the BAM, see below)) and use this argument too: “tags = [“http-server”] or port 80 will not open or you make a separate firewall rule (either is fine). The former option is easiest. 0
+
+-Do not include unneeded arguments 
+
+-The terraform config must include output 
 for the internal and external IP addresses of the VM
 For the name, id and self_link attributes
