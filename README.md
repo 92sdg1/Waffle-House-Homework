@@ -1,12 +1,6 @@
-# Waffle-House-Homework
-Class 7.5 GCP Homework
+# Class 7.5 Week 8 Waffle-House-Homework
 
-
-The purpose of this repository is for organizing and submitting homework assignments for Class 7.5. This repository will expand gradually as the course continues and the lessons accumulate.
-
-Test for Week 8
-
-Q & A
+## Q & A
 
 -Each bullet point can be between 1-5 sentences. You choose the amount of detail as long as I see that you understand it. 
 
@@ -25,7 +19,7 @@ Q & A
 
 
 
-# Runbook
+## Runbook
 -In the first few sentences (3 max) explain the end goal. 
 
 -Add a section on prerequisites (what do I, as an engineer, need to have ready to make this happen?)
@@ -43,7 +37,7 @@ Q & A
 -Test it by having a group mate use this runbook to accomplish the goal. They should be able to rely on it only to spin up a properly configured instance group. 
 
 
-# Terraform
+## Terraform
 
 -Explain the mandatory (required) arguments for a VM in terraform 
 
