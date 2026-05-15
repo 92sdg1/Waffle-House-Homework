@@ -4,6 +4,7 @@ Class 7.5 GCP Homework
 
 ## Q&A
 Load Balancers:
+
 -- How does load balancing contribute to Fault tolerance? What about high availability? 
 
 -- Do global load balancers decrease latency for end users? Why or why not? 
