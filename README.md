@@ -24,7 +24,7 @@ This week's homework is focused on creating a functional Load Balancer utilizing
 #### - 
 
 ### What is a certificate authority? 
-#### - 
+#### - An entity that issues out digital certificates.
 
 
 
