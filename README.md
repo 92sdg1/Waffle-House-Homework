@@ -20,7 +20,7 @@ This week's homework is focused on creating a functional Load Balancer utilizing
 ### Give an overview of the steps in a TLS handshake. 
 #### - The PC's browser asks the website to identify itself.The web server replies back with a copy of its TLS handshake.The PC checks the certificate to verify before deciding if it will trust the web browser. After trusing the web browser, the PC messages the web server to let it know that it trusts it and the web server acknowledges the trust relationship between them. A session is opened between them before encryption begins in order to start transferring data.
 
-### How does an SSL/TLS cert know what domain it belongs to?
+### How does a SSL/TLS cert know what domain it belongs to?
 #### - 
 
 ### What is a certificate authority? 
