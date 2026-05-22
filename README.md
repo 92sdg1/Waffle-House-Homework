@@ -42,7 +42,7 @@ This week's homework is focused on creating a functional Load Balancer utilizing
 ## Cloud Domain/DNS: 
 
 ### Can multiple domains end up pointing to the same LB? 
-#### - 
+#### - The answer to this is yet. For example, my job bought out another company and which had a separate domain with it's own apps and so forth. After some configuring by the network team, that purchased company's domain could point to the same LB of my company to allow them to continue working with the apps they were still using.
 
 ### In the context of Cloud DNS, what are zones?
 #### - 
