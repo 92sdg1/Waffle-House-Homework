@@ -1,5 +1,5 @@
 # Week 10
-This week's homework is focused on creating a functional Global Balancer utilizing structured sequential terraform files.
+This week's homework is focused on creating a functional Load Balancer utilizing structured sequential terraform files.
 
 # Q&A
 
