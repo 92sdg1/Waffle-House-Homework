@@ -1,0 +1,1 @@
+As mentioned in the README.md, there are 2 types of VPNs available in GCP. There is the classic and the HA(High Availability). They serve the same purpose of allowing a secure connection over the public internet but do so with slightly different methonds.
