@@ -1,1 +1,5 @@
-As mentioned in the README.md, there are 2 types of VPNs available in GCP. There is the classic and the HA(High Availability). They serve the same purpose of allowing a secure connection over the public internet but do so with slightly different methonds.
+Classic VPN vs. HA VPN(High Availability)
+
+As mentioned in the README.md, there are 2 types of VPNs available in GCP. There is the classic and the HA(High Availability). They serve the same purpose of allowing a secure connection over the public internet but do so with slightly different methonds. The distinction between these is that HA VPN offers additional fault tolerance by using more VPN tunnels with dynamic routing for added resilience, supports both IPv4 & IPv6 (dual stack) while classic only has IPv4, etc.
+
+Analogy: Person A needs to send a discrete package to a secret destination. If this was Classic VPN, there would be only one route and only one method of getting that package to the destination. If this was HA VPN, the package can be sent to the same destination via multiple paths if one is compromised with addition methods such as a Logistics company (UPS, FedEx, USPS), Uber, associate on a regular road, back road, highway, etc.
