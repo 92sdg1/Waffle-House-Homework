@@ -1,8 +1,0 @@
-Real world Network Intelligence Center use case.
-
-Example: 
-I work for at an oil and gas company that has sites in multiple countries. Each site has its own network with each site allowing users to VPN to to any of the sites within the organization whether its from Texas to Oklahoma or England to Germany. Large amounts of data are being transferred between the cloud providers (Microsoft Azue & Azure) though secured channels. The NCC is at work in this example by allowing the multiple networks to transfer data between the different premises globally and regionally. From my observations, there are various levels of multiple levels of networking such multiple VLANs for phone. With so many aspects of networking incorporated, a network connectivity center is an optimal solution to manage all of these network resources 
-
-
-
-
