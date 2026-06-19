@@ -1,8 +1,30 @@
 
-## **The use cases of the Network Intelligence Center.**
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+The differences and similarities between HA VPN and NCC.
+
+Differences: 
+
+Similarities:
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+The use cases of HA VPN vs NCC.
+
+HA VPN Use case:
+Example 1: An end user is traveling to a high risk country that has a reputation for unsecured wi-fi leading to hacking. The user wants to access the site they typically work at locally in a secure fashion. The user will use a HA VPN to connect to that particular premise configured multiple tunnels to ensure high availability. 
+
+NCC Use Case: 
+Example 1: A company wants connect the VPCs for sites in the USA, England, Germany, Canada, and Singapore. A NCC can be used to connect these different VPCs as each will serve as a spoke.
+
+Example 2: A company has bought out a competitor company and is in the process of consolidating the networks of both companies. The primary company will serve as the hub for the NCC and the new employees from the purchased company will have to go through their new company to access the same resources as they have been configured differently to mesh with the new network.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+The use cases of the Network Intelligence Center.
 
 Real world Network Intelligence Center use case.
 
-<ul>**Example:**
-<li> I work for at an oil and gas company that has sites in multiple countries. Each site has its own network with each site allowing users to VPN to to any of the sites within the organization whether its from Texas to Oklahoma or England to Germany. Large amounts of data are being transferred between the cloud providers (Microsoft Azue & Azure) though secured channels. The NCC is at work in this example by allowing the multiple networks to transfer data between the different premises globally and regionally. From my observations, there are various levels of multiple levels of networking such multiple VLANs for phone. With so many aspects of networking incorporated, a network connectivity center is an optimal solution to manage all of these network resources.</li> 
-</ul>
+Example:
+<li> I work for at an oil and gas company that has sites in multiple countries. Each site has its own network with each site allowing users to VPN to to any of the sites within the organization whether its from Texas to Oklahoma or England to Germany. Some users do travel internationally for the company to other countries and need to be able to access the their site's resources which is when a HA VPN would be implemented into the NCC. Large amounts of data are being transferred between the cloud providers (Microsoft Azue & Azure) though secured channels. Each site's network (VPC) would be a spoke of the hub.  The NCC is at work in this example by allowing the multiple networks to transfer data between the different premises globally and regionally. From my observations, there are various levels of multiple levels of networking such multiple VLANs for phone.  With so many aspects of networking incorporated, a network connectivity center is an optimal solution to manage all of these network resources.</li> 
+
