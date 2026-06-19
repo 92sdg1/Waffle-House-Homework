@@ -13,5 +13,5 @@
 </ul>
 
 <ul>
-  <li>|The use cases of the Network Intelligence Center.</li>  
+  <li> The use cases of the Network Intelligence Center.</li>  
 </ul>
